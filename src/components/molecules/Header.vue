@@ -14,7 +14,7 @@
 
       <div :class="menuOpen ? 'flex' : 'hidden'" class="md:flex">
         <ul
-          class="flex flex-col absolute right-0 2xs:right-5 top-16 py-5 rounded-lg bg-containerColor text-titleColor text-center md:flex-row md:top-0 md:!right-0 md:space-x-8 lg:space-x-10 md:py-0 md:bg-transparent md:font-semibold"
+          class="flex flex-col absolute md:!relative right-0 2xs:right-5 top-16 py-5 rounded-lg bg-containerColor text-titleColor text-center md:flex-row md:top-0 md:!right-0 md:space-x-8 lg:space-x-10 md:py-0 md:bg-transparent md:font-semibold"
         >
           <NavLink text="Produto" link="#product" />
 
