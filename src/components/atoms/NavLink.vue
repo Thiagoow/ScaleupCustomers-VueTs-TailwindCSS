@@ -2,6 +2,7 @@
   <a :href="link">
     <li
       class="cursor-pointer block py-5 px-10 md:py-0 md:px-0 hover:opacity-70"
+      :class="active && 'text-firstColor'"
     >
       {{ text }}
     </li>
@@ -20,6 +21,10 @@ export default defineComponent({
     link: {
       type: String,
       required: true
+    },
+    active: {
+      type: Boolean,
+      required: false
     }
   }
 })
