@@ -15,12 +15,17 @@
     --txt-color: #e6e6e6;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: 'Mulish', sans-serif;
     background: var(--body-color);
     transition: 0.4s;
     /*☝🏽 For dark/light mode animation */
   }
+
   input {
     background: var(--body-color);
     text-align: center;
