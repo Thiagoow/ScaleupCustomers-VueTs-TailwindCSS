@@ -8,6 +8,14 @@
       :imgSrc="feedImg"
       alt="Feed de vídeos curtos"
     />
+
+    <Section
+      title="Ensine a distância com qualidade"
+      text="Sabemos que o ensinar remotamente é um desafio. Por isso, a Scaleup oferece uma plataforma de ensino de qualidade para que você possa continuar fazendo o que faz de melhor, ensinar."
+      :imgSrc="coursesImg"
+      alt="Página de cursos online"
+      reverse
+    />
   </main>
 
   <Footer />
@@ -19,9 +27,9 @@ import { defineComponent } from 'vue'
 import Header from './components/molecules/Header.vue'
 import Section from './components/organisms/Section.vue'
 import Footer from './components/molecules/Footer.vue'
-
 //Images import:
 import feedImg from './assets/img/feed.png'
+import coursesImg from './assets/img/courses.png'
 
 export default defineComponent({
   components: {
@@ -31,7 +39,8 @@ export default defineComponent({
   },
   setup() {
     return {
-      feedImg
+      feedImg,
+      coursesImg
     }
   }
 })
