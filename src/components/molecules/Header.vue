@@ -6,7 +6,7 @@
 
     <nav class="justify-between self-center">
       <img
-        class="md:hidden float-right cursor-pointer hover:opacity-50"
+        class="md:hidden float-right cursor-pointer hover:opacity-60"
         src="../../assets/img/menu.svg"
         alt="menu mobile"
         @click="menuOpen = !menuOpen"
