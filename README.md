@@ -3,7 +3,7 @@
 <img src="./docs/app.jpg" align="center">
 </div> -->
 
-# 👔 Scaleup Customers - Vue.js, TypeScript & Tailwind CSS
+# 👔 Scaleup Customers - Vue, Ts & Tailwind CSS
 
 <p>Projeto desenvolvido por: <strong>Thiago Silva Lopes</strong>, em 09/2022.<br/>
 Para o code challenge da vaga de Front End Jr, da Scaleup.</p>
