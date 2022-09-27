@@ -5,14 +5,14 @@
     <div class="items-center flex flex-col">
       <div class="flex">
         <img
-          src="../../assets/img/director.png"
+          src="../../assets/img/clients/director.png"
           alt="Diretor de escola"
           class="hidden lg:flex max-w-[18rem] ml-8 lg:pt-14"
         />
 
         <div class="flex flex-col text-left p-10 lg:pt-20">
           <img
-            src="../../assets/img/quotes.svg"
+            src="../../assets/img/clients/quotes.svg"
             class="max-w-[2rem]"
             alt="Ilustração de aspas duplas"
           />
@@ -26,7 +26,7 @@
 
           <div class="flex max-h-14 max-w-14">
             <img
-              src="../../assets/img/directorAvatar.png"
+              src="../../assets/img/clients/directorAvatar.png"
               alt="logo objetivo"
               class="max-w-[4rem] lg:hidden"
             />
