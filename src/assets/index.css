@@ -33,8 +33,8 @@
   }
 }
 
-/* @layer components {
-  .someClass {
-    @apply style;
+@layer components {
+  .firstColorLink {
+    @apply font-semibold hover:text-firstColor;
   }
-} */
+}
