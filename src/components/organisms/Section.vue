@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col lg:flex-row items-center justify-center my-28 gap-12"
+    class="flex flex-col lg:flex-row items-center justify-center my-20 gap-12"
     :class="reverse && 'flex-col-reverse lg:flex-row-reverse'"
   >
     <div class="text-center md:text-left grid gap-6 max-w-lg">
@@ -15,11 +15,7 @@
       <Button text="Contratar agora" link="#contract" />
     </div>
 
-    <img
-      :alt="alt"
-      :src="`../../assets/img/${image}`"
-      class="w-1/2 sm:w-7/12 lg:w-[35%]"
-    />
+    <img :alt="alt" :src="imgSrc" class="w-1/2 sm:w-7/12 lg:w-[35%]" />
   </section>
 </template>
 
@@ -37,7 +33,7 @@ export default defineComponent({
       type: String,
       required: true
     },
-    image: {
+    imgSrc: {
       type: String,
       required: true
     },
