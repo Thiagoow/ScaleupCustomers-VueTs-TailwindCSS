@@ -22,10 +22,10 @@
 
 <script setup lang="ts">
 //Images import:
-import feedImg from './assets/img/feed.png'
-import coursesImg from './assets/img/courses.png'
+import feedImg from '../../assets/img/feed.png'
+import coursesImg from '../../assets/img/courses.png'
 //Components import:
-import Section from './components/organisms/Section.vue'
-import Advantages from './components/molecules/Advantages.vue'
-import Testimonial from './components/organisms/Testimonial.vue'
+import Section from '../organisms/Section.vue'
+import Advantages from '../molecules/Advantages.vue'
+import Testimonial from '../organisms/Testimonial.vue'
 </script>
