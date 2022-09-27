@@ -9,19 +9,25 @@
       alt="Feed de vídeos curtos"
     />
   </main>
+
+  <Footer />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+
 import Header from './components/molecules/Header.vue'
 import Section from './components/organisms/Section.vue'
+import Footer from './components/molecules/Footer.vue'
+
 //Images import:
 import feedImg from './assets/img/feed.png'
 
 export default defineComponent({
   components: {
     Header,
-    Section
+    Section,
+    Footer
   },
   setup() {
     return {
