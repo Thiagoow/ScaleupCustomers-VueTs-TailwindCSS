@@ -17,6 +17,7 @@
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 8.5rem;
   }
 
   body {
