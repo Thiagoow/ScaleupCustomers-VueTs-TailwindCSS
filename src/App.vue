@@ -9,6 +9,10 @@
       alt="Feed de vídeos curtos"
     />
 
+    <Advantages />
+
+    <Testimonial />
+
     <Section
       title="Ensine a distância com qualidade"
       text="Sabemos que o ensinar remotamente é um desafio. Por isso, a Scaleup oferece uma plataforma de ensino de qualidade para que você possa continuar fazendo o que faz de melhor, ensinar."
@@ -23,19 +27,23 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
-import Header from './components/molecules/Header.vue'
-import Section from './components/organisms/Section.vue'
-import Footer from './components/molecules/Footer.vue'
 //Images import:
 import feedImg from './assets/img/feed.png'
 import coursesImg from './assets/img/courses.png'
+//Components import:
+import Header from './components/molecules/Header.vue'
+import Section from './components/organisms/Section.vue'
+import Advantages from './components/molecules/Advantages.vue'
+import Testimonial from './components/organisms/Testimonial.vue'
+import Footer from './components/molecules/Footer.vue'
 
 export default defineComponent({
   components: {
     Header,
     Section,
-    Footer
+    Advantages,
+    Footer,
+    Testimonial
   },
   setup() {
     return {
