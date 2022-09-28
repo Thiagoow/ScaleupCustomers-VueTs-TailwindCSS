@@ -1,8 +1,6 @@
 <template>
   <a :href="link" class="w-fit mx-auto md:mx-0">
-    <button
-      class="bg-firstColor hover:opacity-70 text-titleColor font-semibold rounded-lg p-4"
-    >
+    <button class="buttonFirstColor">
       {{ text }}
     </button>
   </a>
