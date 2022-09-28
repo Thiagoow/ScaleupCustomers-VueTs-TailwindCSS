@@ -27,14 +27,17 @@
     /*☝🏽 For dark/light mode animation */
   }
 
-  input {
+  input,
+  textarea {
     background: var(--body-color);
-    text-align: center;
   }
 }
 
 @layer components {
   .firstColorLink {
     @apply font-semibold hover:text-firstColor;
+  }
+  .buttonFirstColor {
+    @apply bg-firstColor hover:opacity-70 text-titleColor font-semibold rounded-lg p-4;
   }
 }
