@@ -54,11 +54,11 @@
     @apply text-base w-full h-full text-txtColor rounded-lg border-2 border-bannerColor outline-none focus:border-blue-500;
   }
   .labelDown {
-    @apply absolute top-3.5 left-3 w-fit text-sm text-txtColor transition-all duration-300;
+    @apply absolute top-3 left-3 w-fit text-base text-txtColor transition-all duration-300;
   }
   .labelUp + label,
   /* Keep label up when it has content (not shown placeholder): */
   .contractInput:not(:placeholder-shown).contractInput:not(:focus) + label {
-    @apply absolute -top-3 bg-bodyColor px-2 text-titleColor;
+    @apply absolute -top-3 bg-bodyColor px-2 text-titleColor text-sm;
   }
 }
