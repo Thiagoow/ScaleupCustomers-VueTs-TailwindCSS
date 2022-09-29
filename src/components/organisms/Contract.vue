@@ -37,10 +37,11 @@
           <div class="relative h-28">
             <textarea
               name="pedido"
+              id="mensagem"
               placeholder=""
               class="contractInput focus:labelUp"
             ></textarea>
-            <label class="labelDown">Mensagem</label>
+            <label class="labelDown" for="mensagem">Mensagem</label>
           </div>
         </div>
 
