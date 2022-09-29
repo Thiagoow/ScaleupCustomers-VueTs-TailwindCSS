@@ -38,8 +38,10 @@
           </div>
 
           <div class="flex self-end gap-10 mt-6 sm:mt-0 font-semibold">
-            <button class="opacity-40">Anterior</button>
-            <button class="text-firstColor">Próximo</button>
+            <button class="text-txtColor opacity-40 hover:opacity-20">
+              Anterior
+            </button>
+            <button class="text-firstColor hover:opacity-70">Próximo</button>
           </div>
         </div>
       </div>
