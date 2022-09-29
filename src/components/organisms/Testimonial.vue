@@ -25,11 +25,11 @@
             e com uma plataforma de fácil utilização.
           </p>
 
-          <div class="flex max-h-14 max-w-14">
+          <div class="flex whitespace-nowrap max-h-14 max-w-14">
             <img
               src="../../assets/img/clients/directorAvatar.png"
               alt="logo objetivo"
-              class="min-w-[3rem] max-w-[4rem] lg:hidden"
+              class="min-w-[3.5rem] max-w-[4rem] lg:hidden"
             />
             <div class="ml-5 lg:m-0">
               <p class="text-titleColor font-semibold">Paulo Magaglio</p>
@@ -37,7 +37,7 @@
             </div>
           </div>
 
-          <div class="flex self-end gap-10 mt-6 sm:mt-0">
+          <div class="flex self-end gap-10 mt-6 sm:mt-0 font-semibold">
             <button class="opacity-40">Anterior</button>
             <button class="text-firstColor">Próximo</button>
           </div>
