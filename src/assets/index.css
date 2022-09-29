@@ -17,9 +17,8 @@
 
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 8.5rem;
+    scroll-padding-top: 12rem;
   }
-
   body {
     font-family: 'Mulish', sans-serif;
     background: var(--body-color);
@@ -29,7 +28,12 @@
 
   input,
   textarea {
+    padding-left: 0.8rem;
     background: var(--body-color);
+  }
+  textarea {
+    padding-top: 0.8rem;
+    resize: vertical;
   }
 }
 
