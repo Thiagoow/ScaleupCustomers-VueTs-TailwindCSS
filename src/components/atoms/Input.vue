@@ -2,7 +2,7 @@
   <div class="relative h-12">
     <input
       :type="type"
-      placeholder=""
+      placeholder=" "
       :id="label"
       class="contractInput focus:labelUp"
       min="100"

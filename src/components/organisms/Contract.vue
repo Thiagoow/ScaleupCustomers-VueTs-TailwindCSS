@@ -38,7 +38,7 @@
             <textarea
               name="pedido"
               id="mensagem"
-              placeholder=""
+              placeholder=" "
               class="contractInput focus:labelUp"
             ></textarea>
             <label class="labelDown" for="mensagem">Mensagem</label>
