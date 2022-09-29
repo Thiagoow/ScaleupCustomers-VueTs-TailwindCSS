@@ -1,6 +1,6 @@
 <template>
   <section class="my-36" id="contract">
-    <div class="gap-y-14 md:grid-cols-2 grid lg:ml-1">
+    <div class="gap-y-14 md:grid-cols-2 grid ml-[1px]">
       <div class="flex flex-col gap-12">
         <h2 class="text-titleColor text-2xl font-bold">
           Assine e melhore agora <br />
@@ -10,15 +10,15 @@
         <div class="grid gap-y-8">
           <Info
             title="Telefone de suporte"
-            :icon="phoneIcon"
+            icon="majesticons:phone-line"
             alt="telephone icon"
-            text="+55 11 888 777"
-            link="tel:+999888777"
+            text="+55 11 888-777"
+            link="tel:+5511888777"
           />
 
           <Info
             title="Nos envie um e-mail"
-            :icon="mailIcon"
+            icon="majesticons:mail-line"
             alt="E-mail icon"
             text="email@scaleup.com"
             link="mailto:email@scaleup.com"

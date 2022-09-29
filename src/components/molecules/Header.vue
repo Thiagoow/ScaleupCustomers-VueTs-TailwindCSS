@@ -9,7 +9,11 @@
         @click="menuOpen = !menuOpen"
         class="md:hidden float-right cursor-pointer hover:opacity-60"
       >
-        <img src="../../assets/img/icons/menu.svg" alt="menu mobile" />
+        <Icon
+          :icon="menuOpen ? 'ep:close-bold' : 'ep:menu'"
+          class="text-3xl text-titleColor"
+          aria-label="menu mobile"
+        />
       </button>
 
       <div :class="menuOpen ? 'flex' : 'hidden'" class="md:flex">
@@ -31,11 +35,13 @@
 import { defineComponent } from 'vue'
 import Logo from '../atoms/Logo.vue'
 import NavLink from '../atoms/NavLink.vue'
+import { Icon } from '@iconify/vue'
 
 export default defineComponent({
   components: {
     Logo,
-    NavLink
+    NavLink,
+    Icon
   },
   data() {
     return {

@@ -6,7 +6,7 @@
       :href="link"
       class="inline-flex items-center text-titleColor hover:text-firstColor"
     >
-      <img :src="icon" :alt="alt" class="max-w-[1rem] mr-2" />
+      <Icon :icon="icon" class="text-lg mr-2" :aria-label="alt" />
       {{ text }}
     </a>
   </div>
@@ -14,8 +14,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { Icon } from '@iconify/vue'
 
 export default defineComponent({
+  components: {
+    Icon
+  },
   props: {
     title: {
       type: String,
