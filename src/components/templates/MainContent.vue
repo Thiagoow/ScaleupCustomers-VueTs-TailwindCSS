@@ -17,6 +17,8 @@
       alt="Página de cursos online"
       reverse
     />
+
+    <Contract />
   </main>
 </template>
 
@@ -28,4 +30,5 @@ import coursesImg from '../../assets/img/app/courses.png'
 import Section from '../organisms/Section.vue'
 import Advantages from '../molecules/Advantages.vue'
 import Testimonial from '../organisms/Testimonial.vue'
+import Contract from '../organisms/Contract.vue'
 </script>
