@@ -26,17 +26,17 @@
         </div>
       </div>
 
-      <form action="#">
+      <form method="post" action="https://sheetdb.io/api/v1/w43mw4sjmcu6p">
         <div class="grid gap-y-6 mb-6">
-          <Input type="text" label="Nome" />
-          <Input type="email" label="E-mail" />
-          <Input type="tel" label="Whatsapp" />
-          <Input type="text" label="Faculdade" />
-          <Input type="number" label="Quantidade de alunos" />
+          <Input type="text" label="Nome" data="nome" />
+          <Input type="email" label="Email" data="email" />
+          <Input type="tel" label="Whatsapp" data="whatsapp" />
+          <Input type="text" label="Faculdade" data="faculdade" />
+          <Input type="number" label="Quantidade de alunos" data="alunos" />
 
           <div class="relative h-28">
             <textarea
-              name="pedido"
+              name="mensagem"
               id="mensagem"
               placeholder=" "
               class="contractInput focus:labelUp"
@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <button class="buttonFirstColor">
+        <button class="buttonFirstColor" type="submit">
           Enviar pedido
           <i class="ri-arrow-right-up-line button__icon"></i>
         </button>
