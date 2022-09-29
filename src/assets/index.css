@@ -17,8 +17,14 @@
 
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 12rem;
+    scroll-padding-top: 8rem;
   }
+  @media (min-width: 1024px) {
+    html {
+      scroll-padding-top: 10rem;
+    }
+  }
+
   body {
     font-family: 'Mulish', sans-serif;
     background: var(--body-color);
