@@ -1,5 +1,6 @@
 <template>
   <section
+    id="clients"
     class="bg-bannerColor rounded-xl max-w-2xl mx-auto lg:max-w-[60rem] my-40"
   >
     <div class="items-center flex flex-col">
