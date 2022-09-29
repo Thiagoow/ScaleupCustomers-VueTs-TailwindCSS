@@ -27,7 +27,7 @@
       </div>
 
       <form action="#">
-        <div class="grid gap-y-10 mb-4">
+        <div class="grid gap-y-10 mb-10">
           <Input type="email" label="E-mail" />
           <Input type="text" label="Assunto" />
 
