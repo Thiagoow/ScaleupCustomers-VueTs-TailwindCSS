@@ -27,13 +27,16 @@
       </div>
 
       <form action="#">
-        <div class="grid gap-y-10 mb-10">
+        <div class="grid gap-y-6 mb-6">
+          <Input type="text" label="Nome" />
           <Input type="email" label="E-mail" />
-          <Input type="text" label="Assunto" />
+          <Input type="tel" label="Whatsapp" />
+          <Input type="text" label="Faculdade" />
+          <Input type="number" label="Quantidade de alunos" />
 
           <div class="relative h-28">
             <textarea
-              name="mensagem"
+              name="pedido"
               placeholder=""
               class="contractInput focus:labelUp"
             ></textarea>
