@@ -1,8 +1,6 @@
 <template>
-  <a :href="link" class="w-fit mx-auto md:mx-0">
-    <button class="buttonFirstColor">
-      {{ text }}
-    </button>
+  <a :href="link" class="w-fit mx-auto md:mx-0 buttonFirstColor">
+    {{ text }}
   </a>
 </template>
 
