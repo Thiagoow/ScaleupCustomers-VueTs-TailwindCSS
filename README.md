@@ -10,8 +10,6 @@ Para o code challenge da vaga de Front End Jr, da Scaleup.</p>
 
 ### Demo: https://scaleup-customers.vercel.app
 
-## Setup the project
-
 <p> Instalar o projeto localmente: </p>
 
 ```
