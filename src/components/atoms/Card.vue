@@ -1,5 +1,5 @@
 <template>
-  <div class="grid bg-containerColor p-10 gap-4 rounded-lg hover:shadow-filt">
+  <div class="grid bg-containerColor p-9 gap-4 rounded-lg hover:shadow-filt">
     <h1 class="text-3xl text-titleColor font-semibold">
       {{ title }}
     </h1>
