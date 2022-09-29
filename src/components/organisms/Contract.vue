@@ -58,13 +58,8 @@
 import { defineComponent } from 'vue'
 import Info from '../atoms/Info.vue'
 import Input from '../atoms/Input.vue'
-import phoneIcon from '../../assets/img/icons/phone.svg'
-import mailIcon from '../../assets/img/icons/mail.svg'
 
 export default defineComponent({
-  components: { Info, Input },
-  setup() {
-    return { phoneIcon, mailIcon }
-  }
+  components: { Info, Input }
 })
 </script>
