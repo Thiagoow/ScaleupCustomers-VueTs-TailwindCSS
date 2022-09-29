@@ -1,6 +1,14 @@
 <template>
   <div class="relative h-12">
-    <input :type="type" placeholder="" class="contractInput focus:labelUp" />
+    <input
+      :type="type"
+      placeholder=""
+      class="contractInput focus:labelUp"
+      min="100"
+      max="10000"
+      step="50"
+      required
+    />
     <label for="" class="labelDown">
       {{ label }}
     </label>
