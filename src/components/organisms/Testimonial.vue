@@ -29,7 +29,7 @@
             <img
               src="../../assets/img/clients/directorAvatar.png"
               alt="logo objetivo"
-              class="max-w-[4rem] lg:hidden"
+              class="min-w-[3rem] max-w-[4rem] lg:hidden"
             />
             <div class="ml-5 lg:m-0">
               <p class="text-titleColor font-semibold">Paulo Magaglio</p>
