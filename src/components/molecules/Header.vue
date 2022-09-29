@@ -5,12 +5,11 @@
     <Logo />
 
     <nav class="justify-between self-center">
-      <button @click="menuOpen = !menuOpen">
-        <img
-          class="md:hidden float-right cursor-pointer hover:opacity-60"
-          src="../../assets/img/icons/menu.svg"
-          alt="menu mobile"
-        />
+      <button
+        @click="menuOpen = !menuOpen"
+        class="md:hidden float-right cursor-pointer hover:opacity-60"
+      >
+        <img src="../../assets/img/icons/menu.svg" alt="menu mobile" />
       </button>
 
       <div :class="menuOpen ? 'flex' : 'hidden'" class="md:flex">
