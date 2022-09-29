@@ -1,6 +1,6 @@
 <template>
   <section class="my-36" id="contract">
-    <div class="gap-y-14 md:grid-cols-2 grid">
+    <div class="gap-y-14 md:grid-cols-2 grid lg:ml-1">
       <div class="flex flex-col gap-12">
         <h2 class="text-titleColor text-2xl font-bold">
           Assine e melhore agora <br />
