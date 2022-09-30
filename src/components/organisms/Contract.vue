@@ -60,7 +60,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Info from '../atoms/Info.vue'
+import Info from '../molecules/Info.vue'
 import Input from '../atoms/Input.vue'
 
 export default defineComponent({
