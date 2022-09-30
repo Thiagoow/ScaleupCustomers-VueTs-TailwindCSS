@@ -26,7 +26,11 @@
         </div>
       </div>
 
-      <form method="post" action="https://sheetdb.io/api/v1/w43mw4sjmcu6p">
+      <form
+        @submit="handleFormData"
+        method="post"
+        action="https://sheetdb.io/api/v1/cbd9dtz2dqv4i"
+      >
         <div class="grid gap-y-6 mb-6">
           <Input type="text" label="Nome" data="nome" />
           <Input type="email" label="Email" data="email" />
@@ -60,6 +64,26 @@ import Info from '../atoms/Info.vue'
 import Input from '../atoms/Input.vue'
 
 export default defineComponent({
-  components: { Info, Input }
+  components: { Info, Input },
+  methods: {
+    handleFormData(event: Event) {
+      event.preventDefault()
+      const form = document.querySelector('form')
+
+      fetch(form!.action, {
+        method: 'POST',
+        body: new FormData(form!)
+      })
+        .then((response) => response.json())
+        .then((html) => {
+          if (html.message === 'Created') {
+            alert(html.message)
+          } else {
+            alert(html.message)
+          }
+          console.log(html)
+        })
+    }
+  }
 })
 </script>
