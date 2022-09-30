@@ -1,5 +1,6 @@
 <template>
   <section
+    :id="id"
     class="flex flex-col lg:flex-row items-center justify-center my-20 gap-12"
     :class="reverse && 'flex-col-reverse lg:flex-row-reverse'"
   >
@@ -25,6 +26,10 @@ import Button from '../atoms/Button.vue'
 
 export default defineComponent({
   props: {
+    id: {
+      type: String,
+      required: false
+    },
     title: {
       type: String,
       required: true
