@@ -76,12 +76,11 @@ export default defineComponent({
       })
         .then((response) => response.json())
         .then((html) => {
-          if (html.message === 'Created') {
-            alert(html.message)
+          if (html.created) {
+            alert(`${html.created} linha(s) criada com sucesso!`)
           } else {
-            alert(html.message)
+            alert(html.error)
           }
-          console.log(html)
         })
     }
   }
