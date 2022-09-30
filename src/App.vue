@@ -2,6 +2,7 @@
   <Header />
   <MainContent />
   <Footer />
+  <notifications position="bottom right" classes="notifications" :max="2" />
 </template>
 
 <script lang="ts">
