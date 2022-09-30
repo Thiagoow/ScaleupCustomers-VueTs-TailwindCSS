@@ -1,4 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+// Import on main.ts to be available on all components
+import Notifications from '@kyvg/vue3-notification'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(Notifications)
+app.mount('#app')
