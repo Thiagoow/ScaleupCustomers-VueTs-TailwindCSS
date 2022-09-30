@@ -4,7 +4,7 @@
       :type="type"
       placeholder=" "
       :id="label"
-      :name="data"
+      :name="name"
       class="contractInput focus:labelUp"
       min="100"
       max="10000"
@@ -30,7 +30,7 @@ export default defineComponent({
       type: String,
       required: true
     },
-    data: {
+    name: {
       type: String,
       required: true
     }

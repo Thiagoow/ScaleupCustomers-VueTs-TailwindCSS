@@ -32,11 +32,11 @@
         action="https://sheetdb.io/api/v1/cbd9dtz2dqv4i"
       >
         <div class="grid gap-y-6 mb-6">
-          <Input type="text" label="Nome" data="nome" />
-          <Input type="email" label="Email" data="email" />
-          <Input type="tel" label="Whatsapp" data="whatsapp" />
-          <Input type="text" label="Faculdade" data="faculdade" />
-          <Input type="number" label="Quantidade de alunos" data="alunos" />
+          <Input type="text" label="Nome" name="nome" />
+          <Input type="email" label="Email" name="email" />
+          <Input type="tel" label="Whatsapp" name="whatsapp" />
+          <Input type="text" label="Faculdade" name="faculdade" />
+          <Input type="number" label="Quantidade de alunos" name="alunos" />
 
           <div class="relative h-28">
             <textarea
