@@ -77,9 +77,16 @@ export default defineComponent({
         .then((response) => response.json())
         .then((html) => {
           if (html.created) {
-            alert(`${html.created} linha(s) criada com sucesso!`)
+            form!.reset()
+            this.$notify({
+              type: 'success',
+              text: `${html.created} pedido(s) enviado com sucesso!`
+            })
           } else {
-            alert(html.error)
+            this.$notify({
+              type: 'error',
+              text: `ERRO: ${html.created}`
+            })
           }
         })
     }
