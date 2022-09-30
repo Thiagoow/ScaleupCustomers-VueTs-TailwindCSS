@@ -41,6 +41,29 @@
     padding-top: 0.8rem;
     resize: vertical;
   }
+
+  .notifications {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--title-color);
+    border: none;
+    background: var(--first-color);
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    width: auto;
+    margin: 2rem auto;
+    cursor: pointer;
+  }
+  .notifications.warn {
+    background: #ffa83f;
+  }
+  .notifications.error {
+    background: #df484a;
+  }
+  .notifications.success {
+    background: #4eca7a;
+  }
 }
 
 @layer components {
@@ -50,6 +73,7 @@
   .buttonFirstColor {
     @apply bg-firstColor hover:opacity-70 text-titleColor font-semibold rounded-lg p-4;
   }
+
   .contractInput {
     @apply text-base w-full h-full text-txtColor rounded-lg border-2 border-bannerColor outline-none focus:border-blue-500;
   }
