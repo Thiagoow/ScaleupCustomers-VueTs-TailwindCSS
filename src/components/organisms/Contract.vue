@@ -85,7 +85,7 @@ export default defineComponent({
           } else {
             this.$notify({
               type: 'error',
-              text: `ERRO: ${html.created}`
+              text: `ERRO: ${html.error}`
             })
           }
         })
