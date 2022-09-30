@@ -1,6 +1,7 @@
 <template>
   <main class="mx-5 xs:mx-14 lg:!mx-auto lg:max-w-5xl">
     <Section
+      id="product"
       title="Informatize sua forma de educar"
       text="Em pleno 2022, a tecnologia é o que mais desperta o interesse entre jovens. Ensine seus alunos de forma divertida e inovadora agora mesmo com a Scaleup!"
       :imgSrc="feedImg"
